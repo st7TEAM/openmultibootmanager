@@ -156,7 +156,7 @@ class OMBManagerInstall(Screen):
 		if not self.selected_image:
 			return
 			
-		self.messagebox = self.session.open(MessageBox, _('Please wait while installation is in progress.\nThis operation may take a while.'), MessageBox.TYPE_INFO, enable_input = False)
+		self.messagebox = self.session.open(MessageBox, _('Please wait while installation is in progress.\nThis operation may take about 4 Minut To 10 Minut Deponding Your Device USB.'), MessageBox.TYPE_INFO, enable_input = False)
 		self.timer = eTimer()
 		self.timer.callback.append(self.installPrepare)
 		self.timer.start(100)
