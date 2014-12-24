@@ -37,7 +37,7 @@ class OMBManagerInit:
 	def __init__(self, session):
 		self.session = session
 
-		message = _("Where do you want to install openMultiboot?")
+		message = _("Please Choose Your Devise to install openMultiboot?")
 		disks_list = []
 		for partition in harddiskmanager.getMountedPartitions():
 			if partition and partition.mountpoint and partition.device and partition.mountpoint != '/' and partition.device[:2] == 'sd':
