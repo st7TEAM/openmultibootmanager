@@ -45,6 +45,7 @@ class OMBManagerAbout(Screen):
 		self.setTitle(_('openMultiboot About'))
 		
 		about = "openMultiboot Manager " + OMB_MANAGER_VERION + "\n"
+		about = "Modified By ST7TEAM For Openatv4.3\n\n
 		about += "(c) 2014 Impex-Sat Gmbh & Co.KG\n\n"
 		about += "Written by Sandro Cavazzoni <sandro@skanetwork.com>"
 		
